@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jorge Guerra tools hub — ForceMetric, Sound Distance Calculator, Gunshot Sound Propagation, and more." />
+  <title>Jorge Guerra · Tools Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="brand-kicker">Jorge Guerra</p>
+        <h1>Tools Hub</h1>
+      </div>
+    </div>
+    <p class="header-tag">Cars · Motorcycles · Firearms · Sound</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Engineering playground</p>
+      <h2>Precision tools for motion, force, and acoustics.</h2>
+      <p class="hero-lead">
+        A home base for the calculators and simulators I build — fast to open,
+        clear about what each one does, ready for the next tool on the bench.
+      </p>
+      <ul class="motif-row" aria-label="Themes">
+        <li><span class="motif-ico" aria-hidden="true">▣</span> Vehicles</li>
+        <li><span class="motif-ico" aria-hidden="true">◎</span> Firearms</li>
+        <li><span class="motif-ico" aria-hidden="true">∿</span> Sound</li>
+        <li><span class="motif-ico" aria-hidden="true">⚡</span> Metrics</li>
+      </ul>
+    </section>
+
+    <section class="tools" aria-label="Applications">
+      <div class="section-head">
+        <h3>Live tools</h3>
+        <p>Open any card. Each app keeps its own data credits and disclaimers.</p>
+      </div>
+
+      <div class="card-grid">
+        <article class="tool-card">
+          <div class="card-top">
+            <span class="card-badge">Acoustics</span>
+            <h4>Sound Distance Calculator</h4>
+          </div>
+          <p class="card-goal">
+            Estimate how suppressor muzzle levels fall off with distance —
+            inverse-square SPL curves with OSHA reference lines for quick comparison.
+          </p>
+          <a class="btn-open" href="https://01ls1z28-coder.github.io/sound-distance-calculator/" rel="noopener">Open tool</a>
+        </article>
+
+        <article class="tool-card">
+          <div class="card-top">
+            <span class="card-badge">Vehicles</span>
+            <h4>ForceMetric</h4>
+          </div>
+          <p class="card-goal">
+            Explore acceleration, force, and timing for vehicle scenarios —
+            a clean gauge-and-chart bench for dialing in performance intuition.
+          </p>
+          <a class="btn-open" href="https://01ls1z28-coder.github.io/forcemetric-web/" rel="noopener">Open tool</a>
+        </article>
+
+        <article class="tool-card">
+          <div class="card-top">
+            <span class="card-badge">Firearms · Sound</span>
+            <h4>Gunshot Sound Propagation</h4>
+          </div>
+          <p class="card-goal">
+            Map how a shot’s sound field spreads with wind, terrain, and
+            Thunder Beast Summit–based bare vs suppressed profiles — plus OSHA distance tables.
+          </p>
+          <a class="btn-open" href="https://01ls1z28-coder.github.io/gunshot-sound-propagation/" rel="noopener">Open tool</a>
+        </article>
+
+        <!-- Add new tool cards here -->
+        <article class="tool-card tool-card--soon" aria-label="Coming soon slot">
+          <div class="card-top">
+            <span class="card-badge">Next up</span>
+            <h4>More tools incoming</h4>
+          </div>
+          <p class="card-goal">
+            This hub is built to grow — drop-in cards for the next calculator
+            or simulator without redesigning the page.
+          </p>
+          <span class="btn-soon" aria-disabled="true">Coming soon</span>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Created by Jorge Guerra</strong></p>
+    <p class="footer-note">
+      Hub overview only. Individual tools include their own measurement credits,
+      non-affiliation notices, and “compiled estimates / not lab-certified” disclaimers.
+    </p>
+    <p class="footer-counter" id="visitCounterNote">
+      Visit counter: GoatCounter (privacy-friendly). Activate by setting your
+      site code in <code>js/goatcounter-config.js</code> — no fake local counts.
+    </p>
+  </footer>
+
+  <script src="js/goatcounter-config.js"></script>
+  <script src="js/goatcounter-loader.js"></script>
+</body>
+</html>
