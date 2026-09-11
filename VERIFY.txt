@@ -1,0 +1,31 @@
+Guerra Tools Hub — verification notes
+=====================================
+
+FAMILY BRASS — hub brass chrome (2026-09-11 CT)
+-----------------------------------------------
+CSS/theme only. Ports VelocityBench Phase 13/14 `--brass*` tokens so hub
+cards/header read as the same instrument-cluster family as VB tool cards.
+
+Applied (exact VB token names):
+  --brass, --brass-strong, --brass-inset, --brass-text,
+  --brass-face, --brass-shadow  (+ --carbon-fine / --panel for face stack)
+
+Chrome surfaces:
+  - .site-header: brass face + bezel + shadow
+  - .tool-card: brass face/border/shadow, top highlight (::before),
+    Phase 14 corner ticks (::after)
+  - Motif pills / brand-mark / section titles / footer: brass accents
+  - Open CTA keeps gold high-contrast (hub identity; not VB lime)
+
+Intentional skips:
+  - No form inputs/selects/textareas on hub → no input bezel rules
+  - No gauges/charts/modals/garage → no those VB chrome hooks
+  - Product copy, tool links, credits, GoatCounter loader unchanged
+  - No analytics changes
+
+Verify:
+  1. Open index.html locally or Pages preview
+  2. Hub cards side-by-side with https://velocitybench.com tool cards
+     should share champagne bezel / carbon face language
+  3. Corner ticks visible but light; Open buttons still readable
+  4. Mobile: single-column cards, no horizontal overflow
