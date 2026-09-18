@@ -1,3 +1,24 @@
+SEO canonical → velocitybench.com (2026-09-18 CT)
+=================================================
+Branch: review/hub-seo-canonical
+Base: review/hub-cards-domain tip (parallel with rebase — head meta / robots / sitemap only)
+
+Goal: github.io guerra-tools-hub must not compete with LIVE https://velocitybench.com/
+
+Applied (static only; no card-body rebase fight):
+  - <link rel="canonical" href="https://velocitybench.com/" />
+  - meta robots noindex,follow
+  - OG/Twitter point at domain hub
+  - robots.txt Sitemap → https://velocitybench.com/sitemap.xml
+  - sitemap.xml lists only https://velocitybench.com/
+
+VERIFY
+  1. View-source: canonical + noindex; OG url = velocitybench.com/
+  2. /robots.txt Sitemap points at domain; /sitemap.xml has domain URL only
+  3. Card markup/CSS untouched for rebase coordination
+
+Intentional skips: deploy; content rebase; CNAME restore.
+
 Guerra Tools Hub — verification notes
 =====================================
 

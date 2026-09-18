@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Prefer the domain Tool Hub — do not compete for indexing.
+Sitemap: https://velocitybench.com/sitemap.xml
